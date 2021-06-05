@@ -1,0 +1,22 @@
+<p>enter your fabulous painting here</p>
+
+
+  
+   <!-- <body>
+      <form [formGroup]="userInputForm" (keyup)="onSubmit()">
+    
+         <br>
+<textarea placeholder="Enter Text Here..." rows = "5" cols = "60" formControlName="text" ></textarea><br>
+      </form>
+   </body> -->
+
+<div class="side">
+
+<canvas id='canvas' width="600" height="600" style="border: 1px solid #cccccc;" ></canvas>
+</div>
+<div class="next">
+    <input type="color" id="color" required [ngModel]="linkColor" (ngModelChange)="setColor($event)" 
+          width="100%">
+    <label for="head"> <b> Pick your color </b> </label>
+</div>
+<div class="clearfix"></div>

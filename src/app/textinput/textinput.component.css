@@ -1,0 +1,10 @@
+.side {
+	float: left;
+}
+
+.next{
+ float: left;
+}
+.clearfix{
+    clear:both
+}
